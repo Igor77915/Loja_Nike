@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header .menu {
+    margin: auto 0;
+    font-size: 30px;
+}
+
+header H1 {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.flechas{
+    margin-bottom: 70px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+.carousel-inner img{
+    border-radius: 4px;
+
+}
+
+.container1{
+    margin-top: 90px;
+}
+
+.nav{
+    font-size: x-large;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card-body a{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-4{
+    margin-bottom: 30px;
+}
+
+.card-subtitle{
+    font-style: italic;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 640px){ 
+    .col-4{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+.carousel-slide img{
+    width: 90%;
+    height: 250px;
+}
+
+.container1 button{
+    font-size: 19px;
+}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+
+.col-4{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+}
