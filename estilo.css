@@ -77,9 +77,9 @@ header H1 {
         margin-bottom: 30px;
     }
 
-.carousel-slide img{
+.carousel img{
     width: 90%;
-    height: 250px;
+    height: 230px;
 }
 
 .container1 button{
